@@ -1,12 +1,13 @@
 제2회 ETRI 휴먼이해 인공지능 논문경진대회
 ==========
-[ 🔗 논문 Link] (https://drive.google.com/file/d/1wrhANgYFGKjF3ooroqmnCzLHp9xhdjy2/view?usp=sharing)
-[ 🔗 제2회 ETRI 휴먼이해 인공지능 논문경진대회](https://aifactory.space/competition/detail/2234)  
+🔗 **논문 바로가기** : [라이프로그와 수면의 정보 연관성을 활용한 수면의 질 예측 알고리즘](https://drive.google.com/file/d/1wrhANgYFGKjF3ooroqmnCzLHp9xhdjy2/view?usp=sharing)
+
+🔗 **대회 정보** : [제2회 ETRI 휴먼이해 인공지능 논문경진대회](https://aifactory.space/competition/detail/2234)  
 
 
-## 라이프로그와 수면의 정보 연관성을 활용한 수면의 질 예측 알고리즘
+## "라이프로그와 수면의 정보 연관성을 활용한 수면의 질 예측 알고리즘"
 
-### 데이터셋
+### 1️⃣ 데이터셋
 * [ETRI 라이프로그 데이터셋 (2020-2018)](https://nanum.etri.re.kr/share/schung1/ETRILifelogDataset2020?lang=ko_KR) 에서 아래 파일들을 다운로드합니다. 
   - user01-06 data (user01-06.7z)
   - user07-10 data (user07-10.7z)
@@ -16,7 +17,7 @@
   - 2020 실험자별 정보 (user_info_2020.csv)
   - 2020 수면 측정 데이터 (user_sleep_2020.csv)
 
-### Directory
+### 2️⃣ Directory
 ```
  <2023_ETRI_AI_Competition>
                     ├ <2020>
@@ -37,7 +38,7 @@
 ```   
 
  
-### 데이터 전처리
+### 3️⃣ 데이터 전처리
   1. user01 - user30 데이터 전처리   
     - 각 user파일의 timestamp_label.csv에서 userId, ts, actionOption, date를 추출합니다.   
     - actionOption칼럼의 데이터를 신체활동 분류표에 따른 강도로 분류합니다.   
@@ -53,10 +54,10 @@
    4. 위의 1,2,3과정의 결과를 공통인 칼럼을 기준으로 합친 후 하나의 csv로 통합합니다.   
       (자세한 데이터 전처리 과정은 **preprocessing.ipynb**파일 참고바랍니다.)   
       
-### Model Architecture
+### 4️⃣ Model Architecture
 <img src="https://user-images.githubusercontent.com/69641554/235355120-9240b70c-2a9b-4254-992e-cda4af8aca70.png" width=500>
 
-### 모델 실행 방법
+### 5️⃣ 모델 실행 방법
 #### 실행 준비
 * git clone
 ```
