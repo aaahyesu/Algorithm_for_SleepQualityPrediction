@@ -1,6 +1,8 @@
 제2회 ETRI 휴먼이해 인공지능 논문경진대회
 ==========
-[제2회 ETRI 휴먼이해 인공지능 논문경진대회](https://aifactory.space/competition/detail/2234)   
+[ 🔗 논문 Link] (https://drive.google.com/file/d/1wrhANgYFGKjF3ooroqmnCzLHp9xhdjy2/view?usp=sharing)
+[ 🔗 제2회 ETRI 휴먼이해 인공지능 논문경진대회](https://aifactory.space/competition/detail/2234)  
+
 
 ## 라이프로그와 수면의 정보 연관성을 활용한 수면의 질 예측 알고리즘
 
